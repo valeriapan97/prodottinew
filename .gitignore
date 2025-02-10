@@ -1,0 +1,27 @@
+# Ignora le cartelle di build (Maven e Gradle)
+target/
+build/
+
+# Ignora i file temporanei di IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignora il file log
+*.log
+
+# Ignora i file di configurazione dell'applicazione (se non vuoi tenere traccia dei dati sensibili)
+application.properties
+application.yml
+
+# Ignora i file del wrapper di Maven
+.mvn/
+
+# Ignora la cartella delle dipendenze (se usi Gradle o Maven)
+.gradle/
+.mvn/
+
+# Ignora file JAR generati
+*.jar
